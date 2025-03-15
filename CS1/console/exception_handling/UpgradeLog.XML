@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="exception_handling">
+</Property><Property Name="Solution File" Value="D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\exception_handling.sln">
+</Property><Property Name="User Options File" Value="D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\exception_handling.suo">
+</Property><Property Name="Date" Value="Thursday, March 15, 2012">
+</Property><Property Name="Time" Value="19:26 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="exception_handling.sln" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling.sln">
+</Event><Event ErrorLevel="0" Project="" Source="exception_handling.suo" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling.suo">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\exception_handling.csproj" Description="Project file successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\exception_handling.csproj">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\Class1.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\Class1.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\finally1.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\finally1.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\Program.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\Program.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\rethrow1.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\rethrow1.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\throw1.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\throw1.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\user_excptn1.cs" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\CS1\console\exception_handling\Backup\exception_handling\user_excptn1.cs">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\exception_handling.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="exception_handling" Source="exception_handling\exception_handling.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="exception_handling.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="exception_handling.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="exception_handling" Source="exception_handling\exception_handling.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

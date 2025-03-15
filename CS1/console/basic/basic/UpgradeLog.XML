@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="basic">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\basic\basic\basic.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\basic\basic\basic.suo">
+</Property><Property Name="Date" Value="Wednesday, November 02, 2011">
+</Property><Property Name="Time" Value="11:31 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="basic.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\basic.sln">
+</Event><Event ErrorLevel="0" Project="" Source="basic.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\basic.suo">
+</Event><Event ErrorLevel="0" Project="basic" Source="basic.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\basic.csproj">
+</Event><Event ErrorLevel="0" Project="basic" Source="Boxing.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\Boxing.cs">
+</Event><Event ErrorLevel="0" Project="basic" Source="input.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\input.cs">
+</Event><Event ErrorLevel="0" Project="basic" Source="Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="basic" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="basic" Source="Type_casting.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\basic\Backup\Type_casting.cs">
+</Event><Event ErrorLevel="0" Project="basic" Source="basic.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="basic" Source="basic.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="basic.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="basic.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="basic" Source="basic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

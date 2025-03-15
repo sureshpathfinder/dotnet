@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="inner_class1">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\inner_class1\inner_class1.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\inner_class1\inner_class1.suo">
+</Property><Property Name="Date" Value="Thursday, November 24, 2011">
+</Property><Property Name="Time" Value="15:07 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="inner_class1.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\inner_class1\Backup\inner_class1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="inner_class1.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\inner_class1\Backup\inner_class1.suo">
+</Event><Event ErrorLevel="0" Project="inner_class1" Source="inner_class1\inner_class1.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\inner_class1\Backup\inner_class1\inner_class1.csproj">
+</Event><Event ErrorLevel="0" Project="inner_class1" Source="inner_class1\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\inner_class1\Backup\inner_class1\Program.cs">
+</Event><Event ErrorLevel="0" Project="inner_class1" Source="inner_class1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\inner_class1\Backup\inner_class1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="inner_class1" Source="inner_class1\inner_class1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="inner_class1" Source="inner_class1\inner_class1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="inner_class1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="inner_class1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="inner_class1" Source="inner_class1\inner_class1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

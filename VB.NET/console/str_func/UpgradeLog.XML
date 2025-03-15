@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="str_func">
+</Property><Property Name="Solution File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\str_func.sln">
+</Property><Property Name="User Options File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\str_func.suo">
+</Property><Property Name="Date" Value="Saturday, June 16, 2012">
+</Property><Property Name="Time" Value="15:37 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="str_func.sln" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func.sln">
+</Event><Event ErrorLevel="0" Project="" Source="str_func.suo" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func.suo">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\str_func.vbproj" Description="Project file successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\str_func.vbproj">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\Module1.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\Module1.vb">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Application.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Application.myapp" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Settings.settings" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\My Project\Resources.resx" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\str_func\Backup\str_func\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\str_func.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="str_func" Source="str_func\str_func.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="str_func.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="str_func.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="str_func" Source="str_func\str_func.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

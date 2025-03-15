@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+	<book>
+		<name>XML Black Book</name>
+		<price>700</price>
+	</book>
+	<book>
+		<name>ASP in 21 days</name>
+		<price>500</price>
+	</book>
+	<book>
+		<name>VB.Net Beginners</name>
+		<price>450</price>
+	</book>
+</catalog>

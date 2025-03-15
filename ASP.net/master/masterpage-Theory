@@ -1,0 +1,3 @@
+Master Pages
+````````````
+	The Master Pages feature provides the ability to define common structure and interface elements for your site, such as a page header, footer, or navigation bar, in a common location called a "master page", to be shared by many pages in your site. This improves the maintainability of your site and avoids unnecessary duplication of code for shared site structure or behavior.

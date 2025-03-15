@@ -1,0 +1,20 @@
+Imports System.IO
+'NameSpace required to be imported to work with files
+Public Class Form1 Inherits System.Windows.Forms.Form
+Private Sub Form1_Load(ByVal sender As System.Object, ByVal e_
+As System.EventArgs) Handles MyBase.Load
+Dim fs as New FileStream("file.doc", FileMode.Create, FileAccess.Write)
+'declaring a FileStream and creating a word document file named file with
+'access mode of writing
+Dim s as new StreamWriter(fs)
+'creating a new StreamWriter and passing the filestream object fs as argument
+s.BaseStream.Seek(0,SeekOrigin.End)
+'the seek method is used to move the cursor to next position to avoid text to be
+'overwritten
+s.WriteLine("This is an example of using file handling concepts in VB .NET.")
+s.WriteLine("This concept is interesting.")
+'writing text to the newly created file
+s.Close()
+'closing the file
+End Sub
+End Class 

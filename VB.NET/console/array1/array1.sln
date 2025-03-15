@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "array1", "array1\array1.vbproj", "{151D3C19-97A1-4752-AF79-F1F2871C2E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151D3C19-97A1-4752-AF79-F1F2871C2E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151D3C19-97A1-4752-AF79-F1F2871C2E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151D3C19-97A1-4752-AF79-F1F2871C2E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151D3C19-97A1-4752-AF79-F1F2871C2E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

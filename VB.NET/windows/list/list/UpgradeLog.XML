@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="list">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\VB.NET\windows\list\list\list.sln">
+</Property><Property Name="Date" Value="Tuesday, November 22, 2011">
+</Property><Property Name="Time" Value="12:26:08 PM">
+</Property></Properties><Event ErrorLevel="0" Project="list" Source="list.vbproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\list.vbproj">
+</Event><Event ErrorLevel="0" Project="list" Source="Form1.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="Form1.Designer.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Application.Designer.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Application.myapp" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Settings.settings" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="list" Source="Form1.resx" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="list" Source="My Project\Resources.resx" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\list\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="list" Source="list.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="list" Source="list.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="list" Source="list.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

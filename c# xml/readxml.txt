@@ -1,0 +1,17 @@
+ public class Book
+    {
+        public String title;
+    }       
+
+public void ReadXML()
+{
+    System.Xml.Serialization.XmlSerializer reader = 
+        new System.Xml.Serialization.XmlSerializer(typeof(Book));
+    System.IO.StreamReader file = new System.IO.StreamReader(
+        @"c:\temp\SerializationOverview.xml");
+    Book overview = new Book();
+    overview = (Book)reader.Deserialize(file);
+
+    Console.WriteLine(overview.title);
+
+}

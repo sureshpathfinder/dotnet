@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="progress1">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\Windows\progress1\progress1.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\Windows\progress1\progress1.suo">
+</Property><Property Name="Date" Value="Wednesday, December 14, 2011">
+</Property><Property Name="Time" Value="12:10 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="progress1.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="progress1.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1.suo">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\progress1.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\progress1.csproj">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Form1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Form1.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Form1.Designer.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Program.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Properties\Settings.settings" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Form1.resx" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\Properties\Resources.resx" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\Windows\progress1\Backup\progress1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\progress1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="progress1" Source="progress1\progress1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="progress1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="progress1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="progress1" Source="progress1\progress1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

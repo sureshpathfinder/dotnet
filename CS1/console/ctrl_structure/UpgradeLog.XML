@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ctrl_structure">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\ctrl_structure\ctrl_structure.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\ctrl_structure\ctrl_structure.suo">
+</Property><Property Name="Date" Value="Thursday, November 03, 2011">
+</Property><Property Name="Time" Value="11:04 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ctrl_structure.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ctrl_structure.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure.suo">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\ctrl_structure.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure\ctrl_structure.csproj">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure\Program.cs">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\Switch1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\ctrl_structure\Backup\ctrl_structure\Switch1.cs">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\ctrl_structure.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ctrl_structure" Source="ctrl_structure\ctrl_structure.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ctrl_structure.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ctrl_structure.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ctrl_structure" Source="ctrl_structure\ctrl_structure.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

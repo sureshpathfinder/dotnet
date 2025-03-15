@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="class1">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\oops\class1\class1.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\oops\class1\class1.suo">
+</Property><Property Name="Date" Value="Wednesday, November 09, 2011">
+</Property><Property Name="Time" Value="11:46 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="class1.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="class1.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1.suo">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\class1.csproj">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Class1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Class1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Class_member.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Class_member.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Constructor1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Constructor1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Constructor2.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Constructor2.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\out_method.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\out_method.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\param1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\param1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Program.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\set_get1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\set_get1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\static1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\static1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\static_m.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\static_m.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\This1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\class1\Backup\class1\This1.cs">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="class1" Source="class1\class1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="class1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="class1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

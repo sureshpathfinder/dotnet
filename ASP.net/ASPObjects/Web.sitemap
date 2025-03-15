@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="home.aspx" title="Home Page"  description="">
+      <siteMapNode url="articles.aspx" title="Articles"  description="" >
+          <siteMapNode url="oracle.aspx" title="Oracle"  description="" />
+          <siteMapNode url="java.aspx" title="Java"  description="" />
+          <siteMapNode url="Net.aspx" title="Dot Net"  description="" >
+              <siteMapNode url="csharp.aspx" title="C sharp"  description="" />
+              <siteMapNode url="Asp.aspx" title="ASP.Net"  description="" />
+              <siteMapNode url="vb.aspx" title="VB.Net"  description="" />
+          </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Forum.aspx" title="Forums"  description="" >
+          <siteMapNode url="hard.aspx" title="HardWare"  description="" />
+          <siteMapNode url="soft.aspx" title="SoftWare"  description="" />
+      </siteMapNode>
+  </siteMapNode>
+</siteMap>

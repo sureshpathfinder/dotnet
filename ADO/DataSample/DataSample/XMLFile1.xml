@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Employees>
+  <emp>
+    <eid>456</eid>
+    <ename>Kumar</ename>
+    <salary>25000</salary>
+  </emp>
+  <emp>
+    <eid>666</eid>
+    <ename>Hari</ename>
+    <salary>45000</salary>
+  </emp>
+  <emp>
+    <eid>777</eid>
+    <ename>Lalitha</ename>
+    <salary>32000</salary>
+  </emp>
+</Employees>

@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<!-- EasyHelp by: Mostafa Kaisoun -->
+<ApplicationHelp>
+	<Introduction>
+		<title>Introduction</title>
+MKGrid  is new grid control to edit cells and bind to database file.
+With MKGrid  you can:
+Bind to database file. 
+Add, Edit and delete records. 
+
+	</Introduction>
+	<Method>
+		<title>AddNewRecord</title>
+Add new Record to database file.
+Syntax:
+
+	</Method>
+	<Method>
+		<title>AddNewRow</title>
+Add new Row to unbound Grid.
+Syntax:
+object.AddNewRow
+
+MKGrid1.AddNewRow();
+	</Method>
+	<Method>
+		<title>BindDataCombo</title>
+Set Table and Field (from database file) to fill Combo box to edit another field.
+Syntax:
+
+Example:
+VB6
+MKGrid1.DeleteRow
+VB.NET
+MKGrid1.DeleteRow()
+C#
+MKGrid1.DeleteRow();
+	</Method>
+	<Method>
+		<title>FirstRecord, LastRecord, NextRecord, PreviousRecord</title>
+Moves to the first, last, next, or previous record in the Recordset and makes that record the current record.
+Syntax:
+object.FirstRecord
+object.LastRecord
+object.NextRecord
+object.PreviousRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.NextRecord ' moves to next record.
+VB.NET
+MKGrid1.NextRecord() ' moves to next record.
+C#
+MKGrid1.NextRecord(); // moves to next record.
+	</Method>
+	<Method>
+		<title>GetNewTable</title>
+Select Table from database file.
+Syntax:
+object.GetNewTable(FileName)
+The Object is MKGrid.
+Example:
+VB6
+Dim MyDataFile 
+MyDataFile = App.Path + "test.mdb"
+MKGrid1.GetNewTable(MyDataFile)
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "test.mdb"
+Dim NewTable As String = MKGrid1.GetNewTable(MyDataFile)
+C#
+string MyDataFile = Application.StartupPath + @"\test.mdb";
+string NewTable = MKGrid1.GetNewTable(ref MyDataFile);
+	</Method>
+	<Method>
+		<title>InsertRow</title>
+Insert new Row to unbound Grid.
+Syntax:
+object.InsertRow
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.InsertRow
+VB.NET
+MKGrid1.InsertRow()
+C#
+MKGrid1.InsertRow();
+	</Method>
+	<Method>
+		<title>LoadGridByQuery</title>
+Populate the grid with a query.
+Syntax:
+object.LoadGridByQuery mdbDataFile, strSql
+mdbDataFile is a String that specifies the file name.
+strSql is a String that specifies SQL statement.
+The Object is MKGrid.
+Remarks:
+When using LoadGridByQuery method the user cannot Add, Modify or Delete records.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MySql As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MySql = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, " _
++ "Format(UnitPrice * Quantity * (1 + Discount)) " _
++ "FROM [Order Details] WHERE " _
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300"
+MKGrid1.LoadGridByQuery MyDataFile, MySql
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MySql As String = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, " _
++ "Format(UnitPrice * Quantity * (1 + Discount)) " _
++ "FROM [Order Details] WHERE " _
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300"
+MKGrid1.LoadGridByQuery (MyDataFile, MySql)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, "
++ "Format(UnitPrice * Quantity * (1 + Discount)) " 
++ "FROM [Order Details] WHERE " 
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300";
+MKGrid1.LoadGridByQuery(ref MyDataFile, ref MySql);
+	</Method>
+	<Method>
+		<title>LoadGridFromSQL</title>
+Bind the Grid to database file using SQL statement.
+Syntax:
+object.LoadGridFromSQL mdbDataFile, strSql
+mdbDataFile is a String that specifies the file name.
+strSql is a String that specifies SQL statement.
+The Object is MKGrid.
+Remarks:
+The user can get (mdbDataFile) by:
+1- OpenNewFile method.
+2- Write full path and file name in the code as following example.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MySql As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MySql = "SELECT * FROM Customers ORDER BY CustomerID"
+MKGrid1.LoadGridFromSQL MyDataFile, MySql
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MySql As String = "SELECT * FROM Customers ORDER BY CustomerID"
+MKGrid1.LoadGridFromSQL (MyDataFile, MySql)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "SELECT * FROM Customers ORDER BY CustomerID";
+MKGrid1.LoadGridByQuery (ref MyDataFile, ref MySql);
+	</Method>
+	<Method>
+		<title>LoadGridFromTable</title>
+Bind the Grid to a table from database file.
+Syntax:
+object.LoadGridFromTable mdbDataFile, mdbTable
+mdbDataFile is a String that specifies the file name.
+mdbTable is a String that specifies the table name.
+The Object is MKGrid.
+Remarks:
+The user can get (mdbDataFile) by:
+1- OpenNewFile method.
+2- Write full path and file name in the code as following example.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MyTable As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MyTable = "Customers"
+MKGrid1.LoadGridFromTable MyDataFile, MyTable
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MyTable As String = "Customers"
+MKGrid1.LoadGridFromTable (MyDataFile, MyTable)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "Customers";
+MKGrid1.LoadGridFromTable (ref MyDataFile, ref MySql);
+	</Method>
+	<Method>
+		<title>OpenNewFile</title>
+Show File Dialog to select the database file (*.mdb).
+Syntax:
+object.OpenNewFile
+The Object is MKGrid.
+</Method>
+
+	<Method>
+		<title>SaveRecord</title>
+Update after Add new Record.
+If record was saved the [IsRecordSave] property set to true.
+Remark: After edit any cell and go to another cell the new value will be saved auto, 
+then you not need to use update when edit cell. 
+Syntax:
+object.SaveRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.SaveRecord
+VB.NET
+MKGrid1.SaveRecord()
+C#
+MKGrid1.SaveRecord();
+	</Method>
+	
+	
+	
+	
+	
+	<Property>
+		<title>TopRow</title>
+Returns or sets the topmost visible unfixed row of a grid, not available at design time
+Syntax:
+object.TopRow [= value]
+value : A Long value that specifies the topmost row number.  
+	</Property>
+	<Property>
+		<title>WordWrap</title>
+Returns or sets a value that determines whether a cell displays multiple lines of text or one long line of text.
+Syntax:
+object.WordWrap [=value]
+The settings for value are:
+True : The cell text displays with multiple, wrapping lines of text. 
+False : Default. The cell text displays as one long line of text. 
+	</Property>
+</ApplicationHelp>

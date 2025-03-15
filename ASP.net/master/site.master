@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+<img src="PetalsTitle.jpg" />
+    <form id="form1" runat="server">
+    <div>
+        <table class="main" cellspacing="0" cellpadding="2">
+              <tr  class="header">
+                  <td colspan="2" class="header"/>
+              </tr>
+               <tr valign="top">
+                <td class="sidebar" rowspan="2">
+                    <a href="daffodil.aspx">Daffodil</a><br/>
+                    <a href="rose.aspx">Rose</a><br/>
+                    <a href="dahlia.aspx">Dahlia</a><br/>
+                    <a href="hydrangea.aspx">Hydrangea</a><br/>
+                    <a href="daisy.aspx">Daisy</a><br />
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default3.aspx">Click</asp:HyperLink></td>
+                <td class="body">
+                    <asp:contentplaceholder id="FlowerText" runat="server">
+                        <h3>Welcome to my florist website!</h3>
+                          We have an enormous selection of quality flowers and seeds, available for shipping to any location worldwide.  Let us handle all you gardening needs!
+                    </asp:contentplaceholder>
+                    <br />
+                    <asp:contentplaceholder id="FlowerPicture" runat="server">
+                       <img src="first.jpg" />
+                    </asp:contentplaceholder>
+                    <br /><br />
+                 </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

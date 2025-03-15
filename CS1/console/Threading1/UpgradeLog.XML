@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Threading1">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\Threading1\Threading1.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\Threading1\Threading1.suo">
+</Property><Property Name="Date" Value="Saturday, November 26, 2011">
+</Property><Property Name="Time" Value="11:27 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Threading1.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Threading1.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1.suo">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Threading1.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1\Threading1.csproj">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Class1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1\Class1.cs">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1\Program.cs">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\Threading1\Backup\Threading1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Threading1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Threading1" Source="Threading1\Threading1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Threading1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Threading1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Threading1" Source="Threading1\Threading1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

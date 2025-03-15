@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="300" Width="300">
+    <Grid>
+        <Border Margin="10,10,9,0" Name="border1" Background="AntiqueWhite" BorderBrush="BurlyWood" Height="100" VerticalAlignment="Top">
+            <Button Height="23" Name="button1" Width="75" Click="button1_Click">Button</Button>
+        </Border>
+        <Image Margin="15,31,0,0" Name="image1" Stretch="Fill" Height="59" HorizontalAlignment="Left" VerticalAlignment="Top" Width="71" />
+        <MediaElement Margin="20,118,98,122" Name="mediaElement1" />
+        <Image Margin="25,25,53,87" Name="image2" Stretch="Fill" Source="xxx.jpg" />
+        <CheckBox Height="16" Margin="25,0,133,46" Name="checkBox1" VerticalAlignment="Bottom" Cursor="Hand">sa</CheckBox>
+    </Grid>
+</Window>

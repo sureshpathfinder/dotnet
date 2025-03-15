@@ -1,0 +1,15 @@
+Imports System.Console
+Imports System.Math
+Module Module1
+
+Sub Main()
+WriteLine("Sine 90 is" & " " & Sin(90))
+'display Sine90 value
+WriteLine("Square root of 81 is " & " " & Sqrt(81))
+'displays square root of 81
+WriteLine("Log value of 12 is" & " " & Log(12))
+'displays the logarithm value of 12
+Read()
+End Sub
+
+End Module 

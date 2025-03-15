@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="home.aspx" title="Home"  description="">
+      <siteMapNode url="Forum.aspx" title="Forum"  description="" >
+        <siteMapNode url="oracle.aspx" title="Oracle"  description="" />
+        <siteMapNode url="Java.aspx" title="Java"  description="" />
+        <siteMapNode url="net.aspx" title="DotNet"  description="" />
+      </siteMapNode>
+      <siteMapNode url="articles.aspx" title="Articles"  description="" />
+      
+        <siteMapNode url="contact.aspx" title="Contact Us"  description="" />
+    </siteMapNode>
+</siteMap>

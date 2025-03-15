@@ -1,0 +1,12 @@
+public void Linq19()
+{
+    List<Customer> customers = GetCustomerList();
+ 
+    var customerOrders =
+        customers.SelectMany(
+            (cust, custIndex) =>
+            cust.Orders.Select(o => "Customer #" + (custIndex + 1) +
+                                    " has an order with OrderID " + o.OrderID));
+ 
+    ObjectDumper.Write(customerOrders);
+}

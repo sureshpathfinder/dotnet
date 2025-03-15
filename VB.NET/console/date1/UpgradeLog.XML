@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="date1">
+</Property><Property Name="Solution File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\date1.sln">
+</Property><Property Name="User Options File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\date1.suo">
+</Property><Property Name="Date" Value="Monday, June 18, 2012">
+</Property><Property Name="Time" Value="14:56 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="date1.sln" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="date1.suo" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1.suo">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\date1.vbproj" Description="Project file successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\date1.vbproj">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\Math1.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\Math1.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\Module1.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\Module1.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\Module2.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\Module2.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\Module3.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\Module3.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Application.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Application.myapp" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Settings.settings" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\My Project\Resources.resx" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\date1\Backup\date1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\date1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="date1" Source="date1\date1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="date1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="date1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="date1" Source="date1\date1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

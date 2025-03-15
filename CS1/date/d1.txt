@@ -1,0 +1,27 @@
+// Calculating the tomorrow's date (adding days to the current date.)
+DateTime tomorrow = DateTime.Today.AddDays( 1 );
+strDate = tomorrow.ToString("dd / MM / yy");
+
+// Calculating the yesterday's date (substracting days from current date.)
+DateTime yesterday = DateTime.Today.AddDays( -1 );
+strDate = yesterday.ToString("dd / MM / yy");
+
+// Calculating the time after 15 minute (adding minutes to the current
+time.)
+// Format : 09 / 08 / 06, 12 : 60
+DateTime later = DateTime.Now.AddMinutes( 15 );
+strDate = later.ToString("dd / MM / yy, hh : mm ");
+
+
+// Calculating the time after 1 hour (adding minutes to the current
+time.)
+// Format : 09 / 08 / 06, 12 : 60
+DateTime later = DateTime.Now.AddMinutes( 60 );
+strDate = later.ToString("dd / MM / yy, hh : mm ");
+
+
+// Calculating the time before 1 hour (adding minutes to the current
+time.)
+// Format : 09 / 08 / 06, 12 : 60
+DateTime later = DateTime.Now.AddMinutes( -60 );
+strDate = later.ToString("dd / MM / yy, hh : mm ")

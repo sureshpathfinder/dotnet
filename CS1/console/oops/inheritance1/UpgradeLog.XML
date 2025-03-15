@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="inheritance1">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\oops\inheritance1\inheritance1.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\oops\inheritance1\inheritance1.suo">
+</Property><Property Name="Date" Value="Friday, November 11, 2011">
+</Property><Property Name="Time" Value="11:33 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="inheritance1.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="inheritance1.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1.suo">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\inheritance1.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1\inheritance1.csproj">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\base1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1\base1.cs">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1\Program.cs">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\single1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\oops\inheritance1\Backup\inheritance1\single1.cs">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\inheritance1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="inheritance1" Source="inheritance1\inheritance1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="inheritance1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="inheritance1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="inheritance1" Source="inheritance1\inheritance1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

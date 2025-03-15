@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="list">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\VB.NET\windows\list\list.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\VB.NET\windows\list\list.suo">
+</Property><Property Name="Date" Value="Tuesday, November 22, 2011">
+</Property><Property Name="Time" Value="12:25 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="list.sln" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\Backup\list.sln">
+</Event><Event ErrorLevel="0" Project="" Source="list.suo" Description="File successfully backed up as E:\sure\program\DOT NET\VB.NET\windows\list\Backup\list.suo">
+</Event><Event ErrorLevel="0" Project="" Source="list.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="list.sln" Description="Converted">
+</Event></UpgradeLog>

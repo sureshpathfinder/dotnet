@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "sample_pjt", "sample_pjt\sample_pjt.vbproj", "{DE24C73B-D298-4F19-ADA9-E087F36A1C91}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{9BF1B32F-EB16-4AC6-93AF-A289BFA28D50}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{F30431A2-7BB3-448C-89A5-576FA0F724B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE24C73B-D298-4F19-ADA9-E087F36A1C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE24C73B-D298-4F19-ADA9-E087F36A1C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE24C73B-D298-4F19-ADA9-E087F36A1C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE24C73B-D298-4F19-ADA9-E087F36A1C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF1B32F-EB16-4AC6-93AF-A289BFA28D50}.Debug|Any CPU.ActiveCfg = Debug
+		{9BF1B32F-EB16-4AC6-93AF-A289BFA28D50}.Release|Any CPU.ActiveCfg = Release
+		{F30431A2-7BB3-448C-89A5-576FA0F724B1}.Debug|Any CPU.ActiveCfg = Debug
+		{F30431A2-7BB3-448C-89A5-576FA0F724B1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="class1">
+</Property><Property Name="Solution File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\class1.sln">
+</Property><Property Name="User Options File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\class1.suo">
+</Property><Property Name="Date" Value="Tuesday, June 19, 2012">
+</Property><Property Name="Time" Value="16:40 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="class1.sln" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="class1.suo" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1.suo">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.vbproj" Description="Project file successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\class1.vbproj">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Contr_detr4vb.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\Contr_detr4vb.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\Module1.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\Module1.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Application.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\shared4.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\shared4.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\student4.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\student4.vb">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Application.myapp" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Settings.settings" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\My Project\Resources.resx" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\class1\Backup\class1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="class1" Source="class1\class1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="class1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="class1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="class1" Source="class1\class1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,25 @@
+ DateTime now = DateTime.Now;
+        Console.WriteLine("Now   : {0}", now);
+
+DateTime dt1 = new DateTime(2004, 10, 19);
+        Console.WriteLine("dt1: {0}", dt1);
+        DateTime dt2 = new DateTime(2004, 10, 19, 22, 47, 35);
+        Console.WriteLine("dt2: {0}", dt2);
+        DateTime dt3 = new DateTime(2004, 10, 19, 22, 47, 35, 259);
+        Console.WriteLine("dt3: {0}", dt3);
+
+DateTime myDateTime3 = new DateTime(2004, 1, 13);
+    DateTime myDateTime4 = new DateTime(2004, 1, 14);
+    Console.WriteLine("myDateTime3 = " + myDateTime3);
+    Console.WriteLine("myDateTime4 = " + myDateTime4);
+    int intResult = DateTime.Compare(myDateTime3, myDateTime4);
+    Console.WriteLine("DateTime.Compare(myDateTime3, myDateTime4) = " + DateTime.Compare(myDateTime3, myDateTime4));
+
+ DateTime myDateTime9 = new DateTime(2004, 1, 1);
+    Console.WriteLine("Initial myDateTime9 = " + myDateTime9);
+    myDateTime9 = myDateTime9.AddYears(1);
+    myDateTime9 = myDateTime9.AddMonths(5);
+    myDateTime9 = myDateTime9.AddDays(3);
+    myDateTime9 = myDateTime9.AddMinutes(30);
+    myDateTime9 = myDateTime9.AddSeconds(15);
+    Console.WriteLine("Final myDateTime9 = " + myDateTime9);

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function Button1_onclick() {
+alert("welcome");
+}
+
+function Submit1_onclick() {
+
+}
+
+// ]]>
+</script>
+</head>
+<body>
+    <form id="form1" method="post" action="request.aspx">
+    <div>
+        <br />
+        <input id="Button1" style="z-index: 100; left: 178px; position: absolute; top: 191px; height: 26px;"
+            type="button" value="button" onclick="return Button1_onclick()" />
+        <br />
+     
+        User Name 
+        <input id="Text1" name="usr" type="text"/></div>
+        <br />
+        Password <input id="Password1" name="pwd" type="password" /><br />
+        <br />
+       
+        Email 
+        <input id="Text2" name="mail" type="text" style="width: 143px" /><br />
+        <br />
+        
+        <input id="Submit1" type="submit" value="submit" onclick="return Submit1_onclick()" />
+    </form>
+</body>
+</html>

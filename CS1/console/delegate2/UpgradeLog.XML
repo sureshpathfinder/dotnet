@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="delegate2">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\delegate2\delegate2.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\delegate2\delegate2.suo">
+</Property><Property Name="Date" Value="Friday, November 25, 2011">
+</Property><Property Name="Time" Value="12:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="delegate2.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\delegate2\Backup\delegate2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="delegate2.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\delegate2\Backup\delegate2.suo">
+</Event><Event ErrorLevel="0" Project="delegate2" Source="delegate2\delegate2.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\delegate2\Backup\delegate2\delegate2.csproj">
+</Event><Event ErrorLevel="0" Project="delegate2" Source="delegate2\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\delegate2\Backup\delegate2\Program.cs">
+</Event><Event ErrorLevel="0" Project="delegate2" Source="delegate2\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\delegate2\Backup\delegate2\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="delegate2" Source="delegate2\delegate2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="delegate2" Source="delegate2\delegate2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="delegate2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="delegate2.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="delegate2" Source="delegate2\delegate2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

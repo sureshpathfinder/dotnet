@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d9825f94-9365-4c36-b747-a6fc629da651" name="ssi@MARUTHI 2012-01-19 13:01:10" runUser="MARUTHI\ssi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="47f3bbc9-b1bf-4318-ab7e-7c113f5da215">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\sure\program\DOT NET\CS1\console\TestProject1\TestResults\ssi_MARUTHI 2012-01-19 13_01_10" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="2" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-01-19T13:01:10.9531250+05:30" queuing="2012-01-19T13:01:11.2187500+05:30" start="2012-01-19T13:01:11.3437500+05:30" finish="2012-01-19T13:01:11.5156250+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\sure\program\dot net\cs1\console\testproject1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="34505c46-cc1e-4db6-aea1-468b7820473d" />
+      <TestMethod codeBase="D:\sure\program\DOT NET\CS1\console\TestProject1\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="sa" storage="d:\sure\program\dot net\cs1\console\testproject1\testproject1\bin\debug\testproject1.dll" id="ce95de49-01d9-3a3f-c969-b8bda579afb3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\sure\program\DOT NET\CS1\console\TestProject1\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1" name="sa" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="34505c46-cc1e-4db6-aea1-468b7820473d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce95de49-01d9-3a3f-c969-b8bda579afb3" executionId="b66990e2-bf7c-4d86-afcb-5999f8180916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34505c46-cc1e-4db6-aea1-468b7820473d" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="MARUTHI" duration="00:00:00.0071556" startTime="2012-01-19T13:01:11.3593750+05:30" endTime="2012-01-19T13:01:11.4843750+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b66990e2-bf7c-4d86-afcb-5999f8180916" testId="ce95de49-01d9-3a3f-c969-b8bda579afb3" testName="sa" computerName="MARUTHI" duration="00:00:00" startTime="0001-01-01T05:30:00.0000000+05:30" endTime="0001-01-01T05:30:00.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method sa defined in class TestProject1.UnitTest1 does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

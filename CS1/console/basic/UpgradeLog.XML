@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="basic">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\basic\basic.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\basic\basic.suo">
+</Property><Property Name="Date" Value="Tuesday, December 06, 2011">
+</Property><Property Name="Time" Value="12:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="basic.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\Backup\basic.sln">
+</Event><Event ErrorLevel="0" Project="" Source="basic.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\basic\Backup\basic.suo">
+</Event><Event ErrorLevel="0" Project="" Source="basic.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="basic.sln" Description="Converted">
+</Event></UpgradeLog>

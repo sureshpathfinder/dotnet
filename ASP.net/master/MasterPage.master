@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <table border="0" cellpadding="0" cellspacing="0" style="z-index: 100; left: 0px;
+            width: 100%; position: absolute; top: 0px; height: 100%">
+            <tr>
+                <td colspan="2" style="height: 121px">
+                    <asp:Image ID="Image1" runat="server" Height="137px" ImageUrl="~/first.jpg" Style="z-index: 100;
+                        left: 32px; position: absolute; top: -4px" Width="844px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 160px">
+                    <asp:HyperLink ID="HyperLink1" runat="server" Height="28px" NavigateUrl="~/Default3.aspx"
+                        Style="z-index: 100; left: 31px; position: absolute; top: 253px" Width="78px">HyperLink</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default4.aspx" Style="z-index: 101;
+                        left: 41px; position: absolute; top: 192px">HyperLink</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Default2.aspx" Style="z-index: 102;
+                        left: 42px; position: absolute; top: 313px">HyperLink</asp:HyperLink>
+                    &nbsp;
+                </td>
+                <td>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

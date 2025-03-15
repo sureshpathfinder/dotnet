@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="interface12">
+</Property><Property Name="Solution File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\interface12.sln">
+</Property><Property Name="User Options File" Value="D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\interface12.suo">
+</Property><Property Name="Date" Value="Wednesday, June 20, 2012">
+</Property><Property Name="Time" Value="17:24 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="interface12.sln" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12.sln">
+</Event><Event ErrorLevel="0" Project="" Source="interface12.suo" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12.suo">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\interface12.vbproj" Description="Project file successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\interface12.vbproj">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\Module2.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\Module2.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\Test.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\Test.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\Module1.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\Module1.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Application.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Application.myapp" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Settings.settings" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\My Project\Resources.resx" Description="File successfully backed up as D:\SSI_SURESH\program\DOT NET\VB.NET\console\oops\interface12\Backup\interface12\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\interface12.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="interface12" Source="interface12\interface12.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="interface12.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="interface12.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="interface12" Source="interface12\interface12.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <td colspan="2" style="height: 10px">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/banner1.gif" /><br />
+                    <br />
+                    <asp:Menu ID="Menu2" runat="server" BackColor="#C0FFC0" Orientation="Horizontal">
+                        <DynamicMenuStyle BackColor="#FFFFC0" />
+                        <DynamicSelectedStyle BackColor="#FFC0C0" />
+                        <Items>
+                            <asp:MenuItem Text="Products" Value="Products">
+                                <asp:MenuItem Text="Car" Value="Car"></asp:MenuItem>
+                                <asp:MenuItem Text="Bike" Value="Bike"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Help" Value="Help">
+                                <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                                <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                                <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 200px">
+                    <a href="in.aspx">Inbox<br />
+                    </a><a href="com.aspx">Compose<br />
+                    </a>
+                </td>
+                <td>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        &nbsp;</div>
+    </form>
+</body>
+</html>

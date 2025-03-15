@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="file_strm">
+</Property><Property Name="Solution File" Value="E:\sure\program\DOT NET\CS1\console\file_strm\file_strm.sln">
+</Property><Property Name="User Options File" Value="E:\sure\program\DOT NET\CS1\console\file_strm\file_strm.suo">
+</Property><Property Name="Date" Value="Wednesday, November 23, 2011">
+</Property><Property Name="Time" Value="14:46 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="file_strm.sln" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm.sln">
+</Event><Event ErrorLevel="0" Project="" Source="file_strm.suo" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm.suo">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\file_strm.csproj" Description="Project file successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\file_strm.csproj">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\filefunc.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\filefunc.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\directories1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\directories1.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\file_read1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\file_read1.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\Program.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\Program.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\streamcs1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\streamcs1.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\write_file1.cs" Description="File successfully backed up as E:\sure\program\DOT NET\CS1\console\file_strm\Backup\file_strm\write_file1.cs">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\file_strm.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="file_strm" Source="file_strm\file_strm.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="file_strm.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="file_strm.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="file_strm" Source="file_strm\file_strm.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="suredata1">
+</Property><Property Name="Solution File" Value="E:\sure-info\program\DOT NET\ADO\suredata2\suredata1.sln">
+</Property><Property Name="Date" Value="Sunday, May 10, 2015">
+</Property><Property Name="Time" Value="15:04 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="suredata1.sln" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1.sln">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\suredata1.csproj" Description="Project file successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\suredata1.csproj">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\DataSet1.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\DataSet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\empDataSet.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\empDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form1.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form1.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form1.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form2.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form2.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form2.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Program.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Program.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\app.config" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\app.config">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\DataSet1.xsc" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\DataSet1.xsc">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\DataSet1.xsd" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\DataSet1.xsd">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\DataSet1.xss" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\DataSet1.xss">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\empDataSet.xsc" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\empDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\empDataSet.xsd" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\empDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\empDataSet.xss" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\empDataSet.xss">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Properties\Settings.settings" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form1.resx" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Form2.resx" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Form2.resx">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\Properties\Resources.resx" Description="File successfully backed up as E:\sure-info\program\DOT NET\ADO\suredata2\Backup1\suredata1\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="suredata1" Source="suredata1\suredata1.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\suredata1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="suredata1" Source="suredata1\suredata1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="suredata1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="suredata1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="suredata1" Source="suredata1\suredata1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

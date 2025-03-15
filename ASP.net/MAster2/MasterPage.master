@@ -1,0 +1,27 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <asp:Image ID="Image1" runat="server" Height="91px" ImageUrl="~/img12.jpg" Width="561px" /><br />
+        <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/MasterPage.master">Home</asp:HyperLink>
+        <br />
+        <br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default2.aspx">First</asp:HyperLink><br />
+        <br />
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Default3.aspx">Second</asp:HyperLink><br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            This is master page</asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

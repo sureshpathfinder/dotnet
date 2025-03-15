@@ -1,0 +1,28 @@
+using System;
+using System.IO;
+
+class tryCatchDemo
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            File.OpenRead("NonExistentFile");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+    }
+}
+
+Although the code in Listing 15-1 only has a single catch block, all exceptions will be caught there because the type is of the base exception type "Exception". In exception handling, more specific exceptions will be caught before their more general parent exceptions. For example, the following snippet shows how to place multiple catch blocks:
+
+        catch(FileNotFoundException fnfex)
+        {
+            Console.WriteLine(fnfex.ToString());
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }

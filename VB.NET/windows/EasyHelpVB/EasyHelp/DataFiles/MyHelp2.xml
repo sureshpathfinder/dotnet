@@ -1,0 +1,1035 @@
+<?xml version="1.0"?>
+<!-- EasyHelp by: Mostafa Kaisoun -->
+<ApplicationHelp>
+	<Introduction> 
+	             Introduction
+MKGrid  is new grid control to edit cells and bind to database file.
+With MKGrid  you can:
+Bind to database file. 
+Add, Edit and delete records. 
+Use Combo box, Date picker and Check box at any column. 
+Add row, delete row, insert row to unbound grid. 
+Hide column, lock column, resize column and sort column. 
+Save unbound grid after edit it as *.mdb file or *.htm file. 
+More properties and methods. 
+Using the MKGrid ActiveX as COM Components in VB.NET and C#. 
+	</Introduction>
+	<Methods>
+    	<AddNewRecord>
+       		     AddNewRecord
+Add new Record to database file.
+Syntax:
+object.AddNewRecord 
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.AddNewRecord 
+VB.NET
+MKGrid1.AddNewRecord()
+C#
+MKGrid1.AddNewRecord();
+    	</AddNewRecord>
+    	<AddNewRow>
+       		     AddNewRow
+Add new Row to unbound Grid.
+Syntax:
+object.AddNewRow
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.AddNewRow
+VB.NET
+MKGrid1.AddNewRow()
+C#
+MKGrid1.AddNewRow();
+    	</AddNewRow>
+    	<BindDataCombo>
+       		     BindDataCombo
+Set Table and Field (from database file) to fill Combo box to edit another field.
+Syntax:
+object.BindDataCombo ComboCol, SourceTable, SourceField, DistenationField
+ComboCol is a Long value that specifies the column number.
+SourceTable is a String that specifies the name of Table that contains the field to fill the ComboBox.
+SourceField is a String that specifies the name of Field, used to fill the ComboBox.
+DistenationField is a String that specifies the name of Field which we want to edit.
+The Object is MKGrid.
+Example:
+VB6
+This example to edit [ProductID] field at column #3 in the table [Order Details] by using [ProductName] field from [Products] table.
+MKGrid1.BindDataCombo 3, "Products", "ProductName", "ProductID"
+VB.NET
+Dim tblProduct As String = "Products"
+Dim fldProductName As String = "ProductName"
+Dim fldProductID As String = "ProductID"
+Dim Col3 As Long = 3
+MKGrid1.BindDataCombo(3, tblProduct, fldProductName, fldProductID)
+C#
+string tblProduct = "Products";
+string fldProductName = "ProductName";
+string fldProductID = "ProductID";
+int Col3 = 3;
+MKGrid1.BindDataCombo(ref Col3, ref tblProduct, ref fldProductName, ref fldProductID);
+    	</BindDataCombo>
+    	<CancelSaveRecord>
+       		     CancelSaveRecord
+Cancel Update after add new Record.
+Syntax:
+object.CancelSaveRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.CancelSaveRecord
+VB.NET
+MKGrid1.CancelSaveRecord()
+C#
+MKGrid1.CancelSaveRecord();
+    	</CancelSaveRecord>
+    	<ClearComboBox> 
+    	         ClearComboBox
+Delete all items from Combo box.
+Syntax:
+object.ClearComboBox number
+number is a Long value that specifies the number of the column in the Grid.
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.ClearComboBox 3 ' ClearComboBox at column #3
+VB.NET
+MKGrid1.ClearComboBox(3) ' ClearComboBox at column #3
+C#
+MKGrid1.ClearComboBox(3); //ClearComboBox at column #3
+    	</ClearComboBox>
+    	<ClearGrid>
+       		     ClearGrid
+Clear the Grid then the grid has one Fixed Row, one Fixed Col, one Row and two Columns.
+Syntax:
+object.ClearGrid
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.ClearGrid 
+VB.NET
+MKGrid1.ClearGrid()
+C#
+MKGrid1.ClearGrid();
+    	</ClearGrid>
+    	<ComboItemsList>
+    	         ComboItemsList
+Set the List of items to the Combo box.
+Syntax:
+object.ComboItemsList ComboCol, ComboList
+ComboCol is a Long value that specifies the column number.
+ComboList is a String that contains items using the slash "/" as delimiter between items.
+You can use the sign "/" on the numeral panel of the keyboard, or on the key "?" if you write English.
+If you write Arabic you can use the sign "/" on the numeral panel or on the key of letter "Meem" after press "Shift".
+The Object is MKGrid.
+Example:
+VB6
+Dim strList as String
+strList = "Apple/Banana/Orange/Melon/Peach/Strawberry"
+MKGrid1.ComboItemsList 4, strList ' add items to the ComboBox at column #4
+VB.NET
+Dim strList as String
+strList = "Apple/Banana/Orange/Melon/Peach/Strawberry"
+'fill CombBox at column #6 with previous list.
+MKGrid1.ComboItemsList (4, strList) ' add items to the ComboBox at column #4
+C#
+string strList = "Apple/Banana/Orange/Melon/Peach/Strawberry";
+int c = 6;
+// fill CombBox at column #6 with previous list.
+MKGrid1.ComboItemsList(ref c, ref strList); // add items to the ComboBox at column #4
+    	</ComboItemsList>
+    	<DeleteRecord>
+       		     DeleteRecord
+Deletes the current Record from database file.
+Syntax:
+object.DeleteRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.DeleteRecord 
+VB.NET
+MKGrid1.DeleteRecord()
+C#
+MKGrid1.DeleteRecord();
+    	</DeleteRecord>
+    	<DeleteRow>
+       		     DeleteRow
+Delete the current Row from unbound Grid.
+Syntax:
+object.DeleteRow
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.DeleteRow
+VB.NET
+MKGrid1.DeleteRow()
+C#
+MKGrid1.DeleteRow();
+    	</DeleteRow>
+    	<FirstRecord-LastRecord-NextRecord-PreviousRecord>
+    FirstRecord, LastRecord, NextRecord, PreviousRecord
+Moves to the first, last, next, or previous record in the Recordset and makes that record the current record.
+Syntax:
+object.FirstRecord
+object.LastRecord
+object.NextRecord
+object.PreviousRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.NextRecord ' moves to next record.
+VB.NET
+MKGrid1.NextRecord() ' moves to next record.
+C#
+MKGrid1.NextRecord(); // moves to next record.
+    	</FirstRecord-LastRecord-NextRecord-PreviousRecord>
+    	<GetNewTable>
+       		     GetNewTable
+Select Table from database file.
+Syntax:
+object.GetNewTable(FileName)
+The Object is MKGrid.
+Example:
+VB6
+Dim MyDataFile 
+MyDataFile = App.Path + "test.mdb"
+MKGrid1.GetNewTable(MyDataFile)
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "test.mdb"
+Dim NewTable As String = MKGrid1.GetNewTable(MyDataFile)
+C#
+string MyDataFile = Application.StartupPath + @"\test.mdb";
+string NewTable = MKGrid1.GetNewTable(ref MyDataFile);
+    	</GetNewTable>
+    	<InsertRow>
+       		     InsertRow
+Insert new Row to unbound Grid.
+Syntax:
+object.InsertRow
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.InsertRow
+VB.NET
+MKGrid1.InsertRow()
+C#
+MKGrid1.InsertRow();
+    	</InsertRow>
+    	<LoadGridByQuery>
+               LoadGridByQuery
+Populate the grid with a query.
+Syntax:
+object.LoadGridByQuery mdbDataFile, strSql
+mdbDataFile is a String that specifies the file name.
+strSql is a String that specifies SQL statement.
+The Object is MKGrid.
+Remarks:
+When using LoadGridByQuery method the user cannot Add, Modify or Delete records.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MySql As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MySql = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, " _
++ "Format(UnitPrice * Quantity * (1 + Discount)) " _
++ "FROM [Order Details] WHERE " _
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300"
+MKGrid1.LoadGridByQuery MyDataFile, MySql
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MySql As String = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, " _
++ "Format(UnitPrice * Quantity * (1 + Discount)) " _
++ "FROM [Order Details] WHERE " _
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300"
+MKGrid1.LoadGridByQuery (MyDataFile, MySql)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "SELECT OrderID, ProductID, UnitPrice, Quantity, Discount, "
++ "Format(UnitPrice * Quantity * (1 + Discount)) " 
++ "FROM [Order Details] WHERE " 
++ "(UnitPrice * Quantity * (1 + Discount)) >= 300";
+MKGrid1.LoadGridByQuery(ref MyDataFile, ref MySql);
+    	</LoadGridByQuery>
+    	<LoadGridFromSQL>
+       		   LoadGridFromSQL
+Bind the Grid to database file using SQL statement.
+Syntax:
+object.LoadGridFromSQL mdbDataFile, strSql
+mdbDataFile is a String that specifies the file name.
+strSql is a String that specifies SQL statement.
+The Object is MKGrid.
+Remarks:
+The user can get (mdbDataFile) by:
+1- OpenNewFile method.
+2- Write full path and file name in the code as following example.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MySql As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MySql = "SELECT * FROM Customers ORDER BY CustomerID"
+MKGrid1.LoadGridFromSQL MyDataFile, MySql
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MySql As String = "SELECT * FROM Customers ORDER BY CustomerID"
+MKGrid1.LoadGridFromSQL (MyDataFile, MySql)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "SELECT * FROM Customers ORDER BY CustomerID";
+MKGrid1.LoadGridByQuery (ref MyDataFile, ref MySql);
+    	</LoadGridFromSQL>
+    	<LoadGridFromTable>
+      		   LoadGridFromTable
+Bind the Grid to a table from database file.
+Syntax:
+object.LoadGridFromTable mdbDataFile, mdbTable
+mdbDataFile is a String that specifies the file name.
+mdbTable is a String that specifies the table name.
+The Object is MKGrid.
+Remarks:
+The user can get (mdbDataFile) by:
+1- OpenNewFile method.
+2- Write full path and file name in the code as following example.
+Example:
+VB6
+Dim MyDataFile As String
+Dim MyTable As String
+MyDataFile = App.Path + "\" + "NWIND.mdb"
+MyTable = "Customers"
+MKGrid1.LoadGridFromTable MyDataFile, MyTable
+VB.NET
+Dim MyDataFile As String = Application.StartupPath + "\" + "NWIND.mdb"
+Dim MyTable As String = "Customers"
+MKGrid1.LoadGridFromTable (MyDataFile, MyTable)
+C#
+string MyDataFile = Application.StartupPath + @"\NWIND.mdb";
+string MySql = "Customers";
+MKGrid1.LoadGridFromTable (ref MyDataFile, ref MySql);
+    	</LoadGridFromTable>
+    	<OpenNewFile>
+       		     OpenNewFile
+Show File Dialog to select the database file (*.mdb).
+Syntax:
+object.OpenNewFile
+The Object is MKGrid.
+Example:
+VB6
+Dim NewFileName As String
+NewFileName = MKGrid1.OpenNewFile()
+VB.NET
+Dim NewFileName As String = MKGrid1.OpenNewFile()
+C#
+string MyDataFile = MKGrid1.OpenNewFile();
+    	</OpenNewFile>
+    	<ResizeGridColumns>
+       		   ResizeGridColumns
+Resize Columns of the Grid when [AllowUserResizing] set to flexResizeColumns.
+Syntax:
+object.ResizeGridColumns
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.ResizeGridColumns
+VB.NET
+MKGrid1.ResizeGridColumns()
+C#
+MKGrid1.ResizeGridColumns();
+    	</ResizeGridColumns>
+    	<SaveGrid>
+       		     SaveGrid
+Save Unbound Grid as *.mdb file or  as *.htm file.
+Syntax:
+object.SaveGrid
+The Object is MKGrid.
+Remark:
+When save data of Unbound Grid:
+1- No reservations about using Date field but the Grid display the Date as ShortDate format.
+2- No reservations about using Boolean Field (Yes/No):
+if file is *.mdb: "Yes" will be saved "-1" and "No" will be saved "0",
+if file is *.htm: "Yes" will be saved "1" and "No" will be saved "0".
+3- Don't use Memo field.
+4- Maximum length of Text field = 120 characters.
+Example:
+VB6
+MKGrid1.SaveGrid
+VB.NET
+MKGrid1.SaveGrid()
+C#
+MKGrid1.SaveGrid();
+    	</SaveGrid>
+    	<SaveRecord>
+       		     SaveRecord
+Update after Add new Record.
+If record was saved the [IsRecordSave] property set to true.
+Remark: After edit any cell and go to another cell the new value will be saved auto, 
+then you not need to use update when edit cell. 
+Syntax:
+object.SaveRecord
+The Object is MKGrid.
+Example:
+VB6
+MKGrid1.SaveRecord
+VB.NET
+MKGrid1.SaveRecord()
+C#
+MKGrid1.SaveRecord();
+    	</SaveRecord>
+	</Methods>
+	<Properties>
+    	<AllowAddNew>
+       		   AllowAddNew
+Returns or sets a value indicating whether the user can add new records to the database file.
+Syntax:
+object.AllowAddNew [=value]
+The Object is MKGrid.
+value is Boolean expression that determines whether a user can add new records, see Settings.   
+The settings for value are:
+True: User can add records. 
+False: User can't add records. 
+Example:
+VB6
+MKGrid1.AllowAddNew  = True  ' user can add new record.
+VB.NET
+MKGrid1.AllowAddNew  = True  ' user can add new record.
+C#
+MKGrid1.AllowAddNew  = true;  // user can add new record.
+    	</AllowAddNew>
+    	<AllowDelete>
+       		   AllowDelete
+Returns or sets a value indicating whether the user can delete records from the database file.
+Syntax:
+object.AllowDelete [=value]
+The Object is MKGrid.
+value is Boolean expression that determines whether a user can delete current record, see Settings.   
+The settings for value are:
+True: User can delete current record. 
+False: User can't delete records. 
+Example:
+VB6
+MKGrid1.AllowDelete  = True  ' user can delete record.
+VB.NET
+MKGrid1.AllowDelete  = True  ' user can delete record.
+C#
+MKGrid1.AllowDelete  = true;  // user can delete record.
+    	</AllowDelete>
+    	<AllowSort>
+       		   AllowSort
+Returns or sets a value indicating whether the user can sort any column Ascending or Descending.
+Syntax:
+object.AllowSort [=value]
+The Object is MKGrid.
+value is Boolean expression that determines whether a user can sort column, see Settings.   
+The settings for value are:
+True: User can sort column. 
+False: User can't sort column. 
+Remarks:
+1- To sort column: click head of column (on fixed row) with right button of the mouse then, 
+     choose Sort Ascending or Sort Descending.
+2- If Combo control or Date control is drop-down you need to click column head twice, 
+     first with mouse left button, second with mouse right button.
+Example:
+VB.NET
+MKGrid1.AllowSort  = True  ' user can sort column.
+VB.NET
+MKGrid1.AllowSort  = True  ' user can sort column.
+C#
+MKGrid1.AllowSort  = true;  // user can sort column.
+    	</AllowSort>
+    	<AllowUpdate>
+       		   AllowUpdate
+Returns or sets a value indicating whether a user can modify any data in the Grid.
+Syntax:
+object.AllowUpdate [=value]
+The Object is MKGrid.
+value is Boolean expression that determines whether a user can modify any data in the Grid, see Settings.  
+The settings for value are:
+True: User can modify any data in the Grid. 
+False: User can't modify any data in the Grid. 
+Example:
+VB6
+MKGrid1.AllowUpdate  = True  ' user can modify any data in the Grid.
+VB.NET
+MKGrid1.AllowUpdate  = True  ' user can modify any data in the Grid.
+C#
+MKGrid1.AllowUpdate  = true;  // user can modify any data in the Grid.
+    	</AllowUpdate>
+    	<AllowUserResizing>
+       		   AllowUserResizing
+Returns or sets a value indicating whether a user can resize rows and columns of the Grid.
+Syntax:
+object.AllowUserResizing [=value]
+The Object is MKGrid.
+value is Integer or constant that specifies whether a user can resize rows and columns, see Settings.   
+The settings for value are:
+GridResizeNone 0 : None. Default. The user cannot resize with the mouse. 
+GridResizeColumns 1 : Columns. The user can resize columns using the mouse. 
+GridResizeRows 2 : Rows. The user can resize rows using the mouse. 
+GridResizeBoth 3 : Both. The user can resize columns and rows using the mouse. 
+Example:
+VB6
+MKGrid1.AllowUserResizing = GridResizeColumns  ' user can resize the columns.
+VB.NET
+MKGrid1.AllowUserResizing = KGrid.AllowResizeConst.GridResizeColumns  ' user can resize the columns.
+C#
+MKGrid1.AllowUserResizing = KGrid.AllowResizeConst.GridResizeColumns;  // user can resize the columns.
+    	</AllowUserResizing>
+    	<Appearance>
+       		     Appearance
+Returns or sets the drawing style of the Grid. This property is read only at run time.
+Syntax:
+object.Appearance [=value]
+The Object is MKGrid.
+value is Integer or constant that specifies the Appearance of the Grid, see Settings. 
+The settings for value are:
+GridStyleFlat 0 : Flat. 
+GridStyleThreeD 1 : Default, 3D. 
+    	</Appearance>
+    	<BackColor-BackColorFixed-BackColorSel>
+       	  BackColor, BackColorFixed, BackColorSel
+Return or set the background color of the Grid.
+Syntax:
+object.BackColor [=color] : Returns or sets the background color of the Grid.
+object.BackColorFixed [=color] : Returns or sets the background color of Fixed Row and Fixed Colunn of the Grid.
+object.BackColorSel [=color] : Returns or sets the background color of Selected cells of the Grid.
+The Object is MKGrid.
+color is numeric expression that specifies the color. 
+Remark:
+The user can set the BackColor from the 'Custom' Property Page in Properties window.
+Example:
+VB6
+MKGrid1.BackColorFixed = vbBlue
+VB.NET
+MKGrid1.BackColorFixed = System.Drawing.Color.Blue
+C#
+MKGrid1.BackColorFixed = System.Drawing.Color.Blue;
+    	</BackColor-BackColorFixed-BackColorSel>
+    	<BorderStyle>
+       		     BorderStyle
+Returns or sets the border style for the Grid, this property read only at run time.
+Syntax:
+object.BorderStyle [=value]
+The Object is MKGrid.
+value is value or constant that determines the border style, see Settings. 
+The settings for value are:
+BorderStyleNone 0 : None. No border . 
+BorderStyleSingle 1 : Border Single. Default.  
+    	</BorderStyle>
+    	<CalendarBackColor-CalendarForeColor>
+    	   CalendarBackColor, CalendarForeColor
+Return or set a value that specifies the background or foreground color of the dropdown calendar.
+Syntax:
+object.CalendarBackColor [=color]
+object.CalendarForeColor [=color]
+The Object is MKGrid.
+color is value or constant that determines the color to be used.  
+Remark:
+The user can set the Calendar Color from the 'Custom' Property Page in Properties window.
+Example:
+VB6
+MKGrid1.CalendarBackColor = vbGreen
+VB.NET
+MKGrid1.CalendarBackColor = System.Drawing.Color.Green
+C#
+MKGrid1.CalendarBackColor = System.Drawing.Color.Green;
+    	</CalendarBackColor-CalendarForeColor>
+    	<CalendarMaxDate-CalendarMinDate>
+           CalendarMaxDate, CalendarMinDate
+Return or set the first and last date allowed by the calendar.
+Syntax:
+object.CalendarMaxDate [= date]
+object.CalendarMinDate [= date]
+The Object is MKGrid.
+date is date expression that evaluates to a valid date.  
+    	</CalendarMaxDate-CalendarMinDate>
+    	<CalendarTitleBackColor-CalendarTitleForeColor>
+     CalendarTitleBackColor, CalendarTitleForeColor
+Return or set a value that specifies the background or foreground color of the title in the dropdown calendar.
+Syntax:
+object.CalendarTitleBackColor [=color] 
+object.CalendarTitleForeColor [=color] 
+The Object is MKGrid.
+color is value or constant that determines the color to be used.  
+Remark:
+The user can set the Calendar Title Color from the 'Custom' Property Page in Properties window.
+Example:
+VB6
+MKGrid1.CalendarTitleForeColor = vbRed
+VB.NET
+MKGrid1.CalendarTitleForeColor = System.Drawing.Color.Red
+C#
+MKGrid1.CalendarTitleForeColor = System.Drawing.Color.Red;
+    	</CalendarTitleBackColor-CalendarTitleForeColor>
+    	<CalendarTrailingForeColor>
+       	  CalendarTrailingForeColor
+Returns or sets a value that specifies the foreground color of trailing dates that are displayed in the dropdown calendar.
+The dates that belong to the previous or following months.
+Syntax:
+object.CalendarTrailingForeColor [=color] 
+The Object is MKGrid.
+color is value or constant that determines the color to be used.  
+Remark:
+The user can set the Trailing ForeColor from the 'Custom' Property Page in Properties window.
+Example:
+VB6
+MKGrid1.CalendarTrailingForeColor = vbYellow
+VB.NET
+MKGrid1.CalendarTrailingForeColor = System.Drawing.Color.Yellow
+C#
+MKGrid1.CalendarTrailingForeColor = System.Drawing.Color.Yellow;
+    	</CalendarTrailingForeColor>
+    	<CellAlignment>
+       		 CellAlignment
+Returns or sets a value that determines the horizontal and vertical alignment of data within the current cell.
+This property not available at design time.
+Syntax:
+object.CellAlignment [=value]
+The Object is MKGrid.
+value is Integer or constant that specifies how text should be aligned within the current cell, see Settings. 
+The settings for value are:
+GridAlignLeft 0 : The cell content is aligned left. 
+GridAlignRight 1 : The cell content is aligned right. 
+GridAlignCenter 2 : The cell content is aligned center. 
+Example:
+VB6
+MKGrid1.CellAlignment  = GridAlignCenter
+VB.NET
+MKGrid1.CellAlignment  = CuteGrd.GridAlignment.GridAlignCenter
+C#
+MKGrid1.CellAlignment  = KGrid.GridAlignment.GridAlignCenter;
+    	</CellAlignment>
+    	<CellBackColor-CellForeColor>
+       	  CellBackColor, CellForeColor
+Return or set a value that specifies the background or foreground color of individual cells, not available at design time.
+Syntax:
+object.CellBackColor [=color] 
+object.CellForeColor [=color] 
+The Object is MKGrid.
+color is value or constant that determines the color to be used.  
+Example:
+VB6
+MKGrid1.CellForeColor = vbBlue
+VB.NET
+MKGrid1.CellForeColor =  System.Drawing.Color.Blue
+C#
+MKGrid1.CellForeColor =  System.Drawing.Color.Blue;
+    	</CellBackColor-CellForeColor>
+    	<CellHeight-CellLeft-CellTop-CellWidth>
+       	 CellHeight, CellLeft, CellTop, CellWidth
+Return the position and size of the current cell. Not available at design time.
+Syntax:
+object.CellHeight [=value] 
+object.CellLeft [=value] 
+object.CellTop [=value] 
+object.CellWidth [=value] 
+The Object is MKGrid.
+value is numeric expression that specifies the return position or size of the current cell.  
+    	</CellHeight-CellLeft-CellTop-CellWidth>
+    	<Clip>
+       		     Clip
+Returns or sets the contents of the cells in selected region of Grid, not available at design time.
+Syntax:
+object.Clip [=string] 
+The Object is MKGrid.
+string is string expression with the contents of the selected area.  
+Example:
+VB6
+Dim strMonth As String
+strMonth ="January" + Chr(9) + "February" + Chr(9) + "March"
+MKGrid1.Clip = strMonth
+VB.NET
+Dim strMonth As String = "January" + Chr(9) + "February" + Chr(9) + "March"
+CuteGrid1.Clip = strMonth
+C#
+string strMonth = "January" + Chr(9) + "February" + Chr(9) + "March";
+CuteGrid1.Clip = strMonth;
+    	</Clip>
+    	<Col-Row>
+       		     Col, Row
+Return or set the coordinates of the active cell in the Grid, not available at design time.
+Syntax:
+object.Col [=number] 
+object.Row [=number] 
+The Object is MKGrid.
+number is Long value that specifies the position of the active cell.  
+Example:
+VB6
+MKGrid1.Col = 3
+MKGrid1.Row = 2
+MKGrid1.Text = "March"
+VB.NET
+MKGrid1.Col = 3
+MKGrid1.Row = 2
+MKGrid1.Text = "March"
+C#
+MKGrid1.Col = 3;
+MKGrid1.Row = 2;
+MKGrid1.Text = "March";
+    	</Col-Row>
+    	<ColAlignment-ColAlignmentFixed>
+       	   ColAlignment, ColAlignmentFixed
+Return or set the alignment of data in a column, not available at design time.
+Syntax:
+object.ColAlignment(number) [=value] 
+object.ColAlignmentFixed(number) [=value] 
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColAlignment with set_ColAlignment to set col alignment,
+and get_ColAlignment  to get col alignment.
+Also replace ColAlignmentFixed with set_ColAlignmentFixed to set col fixed alignment, 
+and get_ColAlignmentFixed  to get col fixed alignment. 
+The Object is MKGrid.
+number is Long value that specifies the number of the column in the Grid.  
+value is integer or constant that specifies the alignment of data in a column, see Settings. 
+The settings for value are:
+GridAlignLeft 0 : Default for strings. The column content is aligned left. 
+GridAlignRight 1 : Default for numbers. The column content is aligned right. 
+GridAlignCenter 2 : The column content is aligned center. 
+Example:
+VB6
+MKGrid1.ColAlignment(3) = GridAlignCenter ' content of column #3 is aligned center.
+VB.NET
+MKGrid1.set_ColAlignment(3,KGrid.GridAlignment.GridAlignCenter) ' content of column #3 is aligned center.
+C#
+MKGrid1.set_ColAlignment(3,KGrid.GridAlignment.GridAlignCenter); // content of column #3 is aligned center.
+    	</ColAlignment-ColAlignmentFixed>
+    	<ColHeaderText>
+       		     ColHeaderText
+Returns or sets the column header caption, not available at design time.
+Syntax:
+object.ColHeaderText(number) [=value]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColHeaderText with set_ColHeaderText to set header text,
+and get_ColHeaderText  to get header text. 
+    	</ColHeaderText>
+    	<ColIsVisible>
+       		     ColIsVisible
+Returns a value indicating whether a specified column is currently visible.
+Syntax:
+object.ColIsVisible(number) [=Boolean]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColIsVisible with get_ColIsVisible to get col visible.
+The Object is MKGrid.
+number is Long value that specifies the column. 
+Boolean is Boolean expression that specifies whether the specified column is visible.  
+The settings for value are:
+True: The specified column is visible. 
+False: The specified column is not visible. 
+    	</ColIsVisible>
+    	<Cols-Rows>
+       		     Cols, Rows
+Return or set the total number of columns and rows in the Grid.
+Syntax:
+object.Cols [=value] : Returns or sets the total number of columns in the Grid.
+object.Rows [=value] : Returns or sets the total number of rows in the Grid.
+The Object is MKGrid.
+value is Long value that specifies the number of columns or rows. 
+Example:
+VB6
+MKGrid1.Cols = 6
+MKGrid1.Rows = 15
+VB.NET
+MKGrid1.Cols = 6
+MKGrid1.Rows = 15
+C#
+MKGrid1.Cols = 6;
+MKGrid1.Rows = 15;
+    	</Cols-Rows>
+    	<ColSel-RowSel>
+       		     ColSel, RowSel
+Return or set the start or end column, or row, for a range of cells, not available at design time.
+Syntax:
+object.ColSel [=value] : Returns or sets the start or end column for a range of cells.
+object.RowSel [=value] : Returns or sets the start or end row for a range of cells.
+The Object is MKGrid.
+value i Long value that specifies the start or end row, or column, for a range of cells. 
+    	</ColSel-RowSel>
+    	<ColumnHidden>
+       		     ColumnHidden
+Returns or sets a value indicating whether a specified column is hide, not available at design time.
+Syntax:
+object.ColumnHidden(number) [=Boolean]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColumnHidden with set_ColumnHidden to set col hidden,
+and get_ColumnHidden  to get col hidden. 
+The Object is MKGrid.
+number is Long value that specifies the column. 
+Boolean is Boolean expression that specifies whether the specified column is hide.  
+The settings for value are:
+True: The specified column is hide. 
+False: The specified column is not hide. 
+    	</ColumnHidden>
+    	<ColumnLocked>
+       		     ColumnLocked
+Returns or sets a value indicating whether a specified column is lock, not available at design time.
+Syntax:
+object.ColumnLocked(number) [=Boolean]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColumnLocked with set_ColumnLocked to set col locked,
+and get_ColumnLocked  to get col locked. 
+The Object is MKGrid.
+number is Long value that specifies the column. 
+Boolean is Boolean expression that specifies whether the specified column is lock.  
+The settings for value are:
+True: The specified column is lock, user can't edit the column. 
+False: The specified column is not lock. 
+    	</ColumnLocked>
+    	<ColumnType>
+       		     ColumnType
+Returns or sets the type of control to show in a column of the Grid, not available at design time.
+Syntax:
+object.ColumnType(number) [=value]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColumnType with set_ColumnType to set col type,
+and get_ColumnType to get col type. 
+The Object is MKGrid.
+number is Long value that specifies the column. 
+value is Integer or constant that specifies the type of control to show in a column, see Settings.  
+The settings for value are:
+colTextBox 0 : Default. TextBox control. 
+colComboBox 1 : ComboBox control. 
+colDateControl 2 : Date control (Date Picker). 
+colCheckBox 3 : CheckBox . 
+Remarks:
+1-Set ColumnType to CheckBox, ComboBox or Data Control necessary when you edit empty Grid.
+2- you don't need to set ColumnType to TextBox because it is default
+3- If you bind the grid to database file,
+    you don't need to set ColumnType to CheckBox or Date Control because,
+    this ActiveX auto set CheckBox if the field is Boolean and auto set Date Control if the field is Date.
+4- When using the Method [ComboItemsList] to add items to ComboBox, 
+    you don't need to set ColumnType to ComboBox, because this ActiveX auto set it.
+5- When using the Method [BindDataCombo] to bind ComboBox to database file, 
+    you don't need to set ColumnType to ComboBox, because this ActiveX auto set it.
+Example:
+VB6
+MKGrid1.ColumnType(2) = colDateControl  ' set Date Picker at column #2.
+VB.NET
+MKGrid1.set_ColumnType(2, KGrid.grdColumnType.colDateControl)  ' set Date Picker at column #2.
+C#
+MKGrid1.set_ColumnType(2, KGrid.grdColumnType.colDateControl);  // set Date Picker at column #2.
+    	</ColumnType>
+    	<ColWidth>
+       		     ColWidth
+Returns or sets the width of specified column in the Grid, in twips, not available at design time.
+Syntax:
+object.ColWidth(number) [=value]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ColWidth with set_ColWidth to set col width,
+and get_ColWidth to get col width. 
+The Object is MKGrid.
+number is Long value that specifies the column. 
+value is numeric expression that specifies the width of the specified column. 
+Set ColWidth to –1 to reset the column width to its default value. 
+Example:
+VB6
+MKGrid1.ColWidth(3) = 1200  ' set the width of column #3.
+VB.NET
+MKGrid1.set_ColWidth(3, 1200)  ' set the width of column #3
+C#
+MKGrid1.set_ColWidth(3, 1200);  // set the width of column #3
+    	</ColWidth>
+    	<ComboListCount>
+       		    ComboListCount
+Returns a value that determines the number of items in the ComboBox at specified column.
+Syntax:
+object.ComboListCount(number) [=value]
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace ComboListCount with get_ComboListCount to get combo list count.
+The Object is MKGrid.
+number is Long value that specifies the column. 
+value is numeric expression that specifies the items in the ComboBox. 
+Example:
+VB6
+MsgBox MKGrid1.ComboListCount(4)  ' return the number of items in the combo box at the column #4.
+VB.NET
+MsgBox MKGrid1.get_ComboListCount(4)  ' return the number of items in the combo box at the column #4.
+C#
+MsgBox MKGrid1.get_ComboListCount(4);  // return the number of items in the combo box at the column #4.
+    	</ComboListCount>
+    	<FocusRect>
+       		     FocusRect
+Returns or sets a value that determines whether the Grid should draw a focus rectangle around the current cell.
+Syntax:
+object.FocusRect [=value]
+The settings for value are:
+GridFocusNone 0 : There is no focus rectangle around the current cell. 
+GridFocusLight 1 : Default. There is a light focus rectangle around the current cell.        		     
+GridFocusHeavy 2 : There is a heavy focus rectangle around the current cell.        		     
+    	</FocusRect>
+    	<Font-FontFixed>
+       		    Font, FontFixed
+Return or set the Font to be used in the Grid.
+Syntax:
+object.Font [= font] 
+object.FontFixed [= font]
+Remark:
+The user can set the Font from the 'Custom' Property Page in Properties window.
+    	</Font-FontFixed>
+    	<ForeColor-ForeColorFixed-ForeColorSel>
+       	ForeColor, ForeColorFixed, ForeColorSel
+Return or set the ForeColor of the Grid.
+Syntax:
+object.ForeColor [=color] : Returns or sets the ForeColor of the Grid.
+object.ForeColorFixed [=color] : Returns or sets the ForeColor of Fixed Row and Fixed Colunn of the Grid.
+object.ForeColorSel [=color] : Returns or sets the ForeColor of Selected cells of the Grid.
+Remark:
+The user can set the ForeColor from the 'Custom' Property Page in Properties window.       	
+    	</ForeColor-ForeColorFixed-ForeColorSel>
+    	<GridColor-GridColorFixed>
+       	  GridColor, GridColorFixed
+Return or set the line color used between the cells of the Grid.
+Syntax:
+object.GridColor [=color] 
+object.GridColorFixed [=color] 
+Remark:
+The user can set the Color from the 'Custom' Property Page in Properties window.
+    	</GridColor-GridColorFixed>
+    	<GridLines-GridLinesFixed>
+       	  GridLines, GridLinesFixed
+Return or set a value that determines whether lines are drawn between cells.
+Syntax:
+object.GridLines [=value] 
+object.GridLinesFixed [=value] 
+The settings for value are:
+GridLineNone 0 There are no lines between cells.  
+GridLineFlat 1 The line style between cells is set to normal, flat, lines. 
+GridLineInset 2 The line style between cells is set to inset lines. 
+GridLineRaised 3 The line style between cells is set to raised lines.         	  
+    	</GridLines-GridLinesFixed>
+    	<GridLineWidth-GridLineWidthFixed>
+      	GridLineWidth, GridLineWidthFixed
+Return or set the width, in pixels, of the lines displayed between cells.
+Syntax:
+object.GridLineWidth [=value] 
+object.GridLineWidthFixed [=value] 
+    	</GridLineWidth-GridLineWidthFixed>
+    	<GridRowColor>
+       		     GridRowColor
+Returns or sets the row color of the Grid, the color of first row always is white.
+Syntax:
+object.GridRowColor [=value]
+The settings for value are:
+WhiteWhite 0 : Back color of all rows is white. 
+WhiteBlue 1 : Back color of first row is white, next row is light blue. 
+WhiteCyan 2 : Back color of first row is white, next row is cyan. 
+WhiteGreen 3 : Back color of first row is white, next row is light green. 
+WhiteGray 4 : Back color of first row is white, next row is light gray. 
+WhiteOrange 5 : Back color of first row is white, next row is orange. 
+WhiteRed 6 : Back color of first row is white, next row is light red. 
+WhiteYellow 7 : Back color of first row is white, next row is light yellow 
+    	</GridRowColor>
+    	<IsBoundGrid>
+       		     IsBoundGrid
+Returns a value indicating the state of the Grid (bound or not).
+Syntax:
+object.IsBoundGrid [=value]
+The settings for value are:
+True : The grid was bounded with data. 
+False : The grid not bounded. 
+    	</IsBoundGrid>
+    	<IsRecordSave>
+       		     IsRecordSave
+Returns a value indicating the state of new record (saved or not).
+Syntax:
+object.IsRecordSave [=value]
+The settings for value are:
+True The new record was saved. 
+False The new record not saved. 
+    	</IsRecordSave>
+    	<LeftCol>
+       		     LeftCol
+Returns or sets the leftmost visible unfixed column of a grid, not available at design time
+Syntax:
+object.LeftCol [= number]
+number is a Long value.
+    	</LeftCol>
+    	<MouseCol-MouseRow>
+       		  MouseCol, MouseRow
+Return the current mouse position, in row and column coordinates.
+Syntax:
+object.MouseCol [=value] 
+object.MouseRow [=value] 
+value is the row and column coordinates 
+   	</MouseCol-MouseRow>
+    	<RightToLeft>
+       		    RightToLeft
+Returns or sets a value indicating whether the Grid direction for reading and writing.
+Syntax:
+object.RightToLeft [=value]
+The settings for value are:
+True : Grid columns begin at the right boundary of the Grid. 
+Fixed columns are located on the right side of the Grid.
+Cell values have RightToLeft reading order. 
+False : Default. Grid columns begin at the left boundary of the Grid. 
+Fixed columns are located on the left side of the Grid. 
+    	</RightToLeft>
+    	<RowHeight>
+       		    RowHeight
+Returns or sets the height of a given row in pixels, not available at design time.
+Syntax:
+object.RowHeight(number) [=value]
+number : An integer specifying the row number. 
+value : An integer specifying the row height in pixels. 
+    	</RowHeight>
+    	<RowIsVisible>
+       		  RowIsVisible
+Returns a value that determines whether a specified row is visible.
+Syntax:
+object.RowIsVisible(number) [=value]
+number : A Long value that specifies the row. 
+The settings for value are:
+True : The specified row is currently visible. 
+False : The specified row is not currently visible. 
+    	</RowIsVisible>
+    	<Text>
+       		     Text
+Returns or sets the text content of a cell.
+Syntax:
+object.Text [=string]
+    	</Text>
+    	<TextArray>
+       		     TextArray
+Returns or sets the text content of an arbitrary cell, not available at design time.
+Syntax:
+object.TextArray(number) [=string]
+number : A numeric expression that specifies which cell to read or write.  
+string : A string expression containing the contents of an arbitrary cell. 
+Example:
+Dim c As Integer
+' fill row #2 
+For c = 1 To MKGrid1.Cols - 1
+   MKGrid1.TextArray(2 * MKGrid1.Cols + c) = Str(c)
+Next c
+Remark:
+If using the MKGrid ActiveX in VB.NET or C# replace TextArray with set_TextArray to set text array,
+and get_TextArray  to get text array. 
+    	</TextArray>
+    	<TextMatrix>
+       		     TextMatrix
+Returns or sets the text contents of an arbitrary cell, not available at design time.
+Syntax:
+object.TextMatrix(row, col) [=string]
+row, col : A numeric expression that specifies the cell.  
+string : A string expression. 
+If using the MKGrid ActiveX in VB.NET or C# replace TextMatrix with set_TextMatrix to set text matrix,
+and get_TextMatrix  to get text matrix. 
+Example:
+MKGrid1.TextMatrix(2, 3) = "Visual Basic"
+    	</TextMatrix>
+    	<TopRow>
+       		     TopRow
+Returns or sets the topmost visible unfixed row of a grid, not available at design time
+Syntax:
+object.TopRow [= value]
+value : A Long value that specifies the topmost row number.  
+    	</TopRow>
+    	<WordWrap>
+       		     WordWrap
+Returns or sets a value that determines whether a cell displays multiple lines of text or one long line of text.
+Syntax:
+object.WordWrap [=value]
+The settings for value are:
+True : The cell text displays with multiple, wrapping lines of text. 
+False : Default. The cell text displays as one long line of text. 
+    	</WordWrap>
+	</Properties>
+</ApplicationHelp>

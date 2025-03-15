@@ -1,0 +1,29 @@
+Imports System.Console
+Module Module1
+
+Sub Main()
+Dim string1 As String = "Strings in Visual Basic"
+Dim string2 As String
+Dim string3 As String
+Dim string4 As String
+Dim string5 As String
+Dim string6 As String
+string2 = UCase(string1)
+'converts string to uppercase
+string3 = LCase(string1)
+'converts string to lowercase
+string4 = string1.Substring(11, 6)
+'returns a substring
+string5 = string1.Clone
+'clones a string
+string6 = string1.GetHashCode
+'gets the hashcode
+WriteLine(string2)
+WriteLine(string3)
+WriteLine(string4)
+WriteLine(string5)
+WriteLine(string6)
+Read()
+End Sub
+
+End Module 

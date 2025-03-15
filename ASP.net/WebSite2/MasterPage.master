@@ -1,0 +1,29 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body Bgcolor="blue">
+    <form id="form1" runat="server">
+        <span style="font-size: 24pt; color: #ff66ff">&nbsp;This is my Website<br />
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" Text="Inbox" /><br />
+            <br />
+            <asp:Button ID="Button2" runat="server" Text="New" /><br />
+            <br />
+            <asp:Button ID="Button3" runat="server" Text="Sent Item" /><br />
+            <asp:Button ID="Button4" runat="server" Text="Trash" /><br />
+            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <asp:Button ID="Button5" runat="server" Text="Draft" /><br />
+            <br />
+            <br />
+        </span>
+    </form>
+</body>
+</html>

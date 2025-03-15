@@ -1,0 +1,43 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2"
+            Style="z-index: 100; left: 4px; position: absolute; top: 37px">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        &nbsp;
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Style="z-index: 101; left: 330px;
+            position: absolute; top: 41px">
+        </asp:SiteMapPath>
+        <br />
+        &nbsp; &nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" Style="z-index: 103;
+            left: -2px; position: absolute; top: 91px">
+        </asp:TreeView>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            &nbsp;Home Page<br />
+            <br />
+            &nbsp; &nbsp;&nbsp; Content Page &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
